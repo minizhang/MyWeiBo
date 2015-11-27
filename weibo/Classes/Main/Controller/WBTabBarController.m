@@ -9,6 +9,10 @@
 #import "WBTabBarController.h"
 #import "UIImage+WB.h"
 #import "WBTabBar.h"
+#import "WBHomeViewController.h"
+#import "WBDiscoverViewController.h"
+#import "WBProFileViewController.h"
+#import "WBMessageViewController.h"
 
 @interface WBTabBarController ()
  
@@ -39,22 +43,22 @@
 - (void)setAllChildViewController{
     //  管理子控制器
     //首页
-    UIViewController *home = [[UIViewController alloc] init];
+    WBHomeViewController *home = [[WBHomeViewController alloc] init];
     home.view.backgroundColor = [UIColor grayColor];
     [self setUpOneChildViewWith:home imageName:@"tabbar_home" selectedImageName:@"tabbar_home_selected" andTitle:@"首页"];
     
     //消息
-    UIViewController *message = [[UIViewController alloc] init];
+    WBMessageViewController *message = [[WBMessageViewController alloc] init];
     message.view.backgroundColor = [UIColor blueColor];
     [self setUpOneChildViewWith:message imageName:@"tabbar_message_center" selectedImageName:@"tabbar_message_center_selected" andTitle:@"消息"];
     
     //发现
-    UIViewController *discover = [[UIViewController alloc] init];
+    WBDiscoverViewController *discover = [[WBDiscoverViewController alloc] init];
     discover.view.backgroundColor = [UIColor purpleColor];
     [self setUpOneChildViewWith:discover imageName:@"tabbar_discover" selectedImageName:@"tabbar_discover_selected" andTitle:@"发现"];
     
     //我
-    UIViewController *profile = [[UIViewController alloc] init];
+    WBProFileViewController *profile = [[WBProFileViewController alloc] init];
     profile.view.backgroundColor = [UIColor lightGrayColor];
     [self setUpOneChildViewWith:profile imageName:@"tabbar_profile" selectedImageName:@"tabbar_profile_selected" andTitle:@"我"];
 }

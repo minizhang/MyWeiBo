@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7EEF17D51C074352007B173C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF17D41C074352007B173C /* main.m */; };
-		7EEF17D81C074352007B173C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF17D71C074352007B173C /* AppDelegate.m */; };
-		7EEF17E01C074352007B173C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EEF17DF1C074352007B173C /* Assets.xcassets */; };
-		7EEF17E31C074352007B173C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EEF17E11C074352007B173C /* LaunchScreen.storyboard */; };
+		7E04D1EE1C089F4900F7370A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D1E91C089F4900F7370A /* AppDelegate.m */; };
+		7E04D1EF1C089F4900F7370A /* UIImage+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D1EC1C089F4900F7370A /* UIImage+WB.m */; };
+		7E04D1F01C089F4900F7370A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D1ED1C089F4900F7370A /* main.m */; };
+		7E04D1F21C08A06500F7370A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E04D1F11C08A06500F7370A /* Assets.xcassets */; };
+		7E04D1F51C08A07100F7370A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E04D1F31C08A07100F7370A /* LaunchScreen.storyboard */; };
+		7E04D1F71C08A08200F7370A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E04D1F61C08A08200F7370A /* Info.plist */; };
+		7E04D1FC1C08A21B00F7370A /* WBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D1FB1C08A21B00F7370A /* WBHomeViewController.m */; };
+		7E04D1FF1C08A24000F7370A /* WBMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D1FE1C08A24000F7370A /* WBMessageViewController.m */; };
+		7E04D2021C08A28900F7370A /* WBDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D2011C08A28900F7370A /* WBDiscoverViewController.m */; };
+		7E04D2051C08A2AB00F7370A /* WBProFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D2041C08A2AB00F7370A /* WBProFileViewController.m */; };
 		7EEF17EE1C074352007B173C /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF17ED1C074352007B173C /* weiboTests.m */; };
 		7EEF17F91C074352007B173C /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF17F81C074352007B173C /* weiboUITests.m */; };
 		7EEF18261C0743E1007B173C /* WBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF18121C0743E1007B173C /* WBTabBarController.m */; };
 		7EEF18271C0743E1007B173C /* WBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF18161C0743E1007B173C /* WBTabBar.m */; };
-		7EEF18291C0743E1007B173C /* UIImage+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF18201C0743E1007B173C /* UIImage+WB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +41,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E04D1E81C089F4900F7370A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E04D1E91C089F4900F7370A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E04D1EB1C089F4900F7370A /* UIImage+WB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WB.h"; sourceTree = "<group>"; };
+		7E04D1EC1C089F4900F7370A /* UIImage+WB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WB.m"; sourceTree = "<group>"; };
+		7E04D1ED1C089F4900F7370A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E04D1F11C08A06500F7370A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Classes/Assets.xcassets; sourceTree = "<group>"; };
+		7E04D1F41C08A07100F7370A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E04D1F61C08A08200F7370A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E04D1FA1C08A21B00F7370A /* WBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHomeViewController.h; sourceTree = "<group>"; };
+		7E04D1FB1C08A21B00F7370A /* WBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBHomeViewController.m; sourceTree = "<group>"; };
+		7E04D1FD1C08A24000F7370A /* WBMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBMessageViewController.h; sourceTree = "<group>"; };
+		7E04D1FE1C08A24000F7370A /* WBMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBMessageViewController.m; sourceTree = "<group>"; };
+		7E04D2001C08A28900F7370A /* WBDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBDiscoverViewController.h; sourceTree = "<group>"; };
+		7E04D2011C08A28900F7370A /* WBDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBDiscoverViewController.m; sourceTree = "<group>"; };
+		7E04D2031C08A2AB00F7370A /* WBProFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBProFileViewController.h; sourceTree = "<group>"; };
+		7E04D2041C08A2AB00F7370A /* WBProFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBProFileViewController.m; sourceTree = "<group>"; };
 		7EEF17D01C074352007B173C /* weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EEF17D41C074352007B173C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../main.m; sourceTree = "<group>"; };
-		7EEF17D61C074352007B173C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
-		7EEF17D71C074352007B173C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
-		7EEF17DF1C074352007B173C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7EEF17E21C074352007B173C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7EEF17E41C074352007B173C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EEF17E91C074352007B173C /* weiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EEF17ED1C074352007B173C /* weiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboTests.m; sourceTree = "<group>"; };
 		7EEF17EF1C074352007B173C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,8 +68,6 @@
 		7EEF18121C0743E1007B173C /* WBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTabBarController.m; sourceTree = "<group>"; };
 		7EEF18151C0743E1007B173C /* WBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTabBar.h; sourceTree = "<group>"; };
 		7EEF18161C0743E1007B173C /* WBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTabBar.m; sourceTree = "<group>"; };
-		7EEF181F1C0743E1007B173C /* UIImage+WB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WB.h"; sourceTree = "<group>"; };
-		7EEF18201C0743E1007B173C /* UIImage+WB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WB.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +95,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E04D1E71C089F4900F7370A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7E04D1E81C089F4900F7370A /* AppDelegate.h */,
+				7E04D1E91C089F4900F7370A /* AppDelegate.m */,
+				7E04D1EA1C089F4900F7370A /* Category */,
+				7E04D1ED1C089F4900F7370A /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		7E04D1EA1C089F4900F7370A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7E04D1EB1C089F4900F7370A /* UIImage+WB.h */,
+				7E04D1EC1C089F4900F7370A /* UIImage+WB.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7E04D1F91C08A18800F7370A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E04D1F61C08A08200F7370A /* Info.plist */,
+				7E04D1F11C08A06500F7370A /* Assets.xcassets */,
+				7E04D1F31C08A07100F7370A /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		7EEF17C71C074352007B173C = {
 			isa = PBXGroup;
 			children = (
@@ -106,19 +149,9 @@
 			isa = PBXGroup;
 			children = (
 				7EEF18061C0743E1007B173C /* Classes */,
-				7EEF17DF1C074352007B173C /* Assets.xcassets */,
-				7EEF17E11C074352007B173C /* LaunchScreen.storyboard */,
-				7EEF17E41C074352007B173C /* Info.plist */,
-				7EEF17D31C074352007B173C /* Supporting Files */,
+				7E04D1F91C08A18800F7370A /* Supporting Files */,
 			);
 			path = weibo;
-			sourceTree = "<group>";
-		};
-		7EEF17D31C074352007B173C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		7EEF17EC1C074352007B173C /* weiboTests */ = {
@@ -142,12 +175,12 @@
 		7EEF18061C0743E1007B173C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7EEF18221C0743E1007B173C /* ProFile */,
-				7EEF18071C0743E1007B173C /* Discover */,
-				7EEF180B1C0743E1007B173C /* Home */,
 				7EEF180F1C0743E1007B173C /* Main */,
+				7EEF180B1C0743E1007B173C /* Home */,
 				7EEF18171C0743E1007B173C /* Message */,
-				7EEF181B1C0743E1007B173C /* Other */,
+				7EEF18071C0743E1007B173C /* Discover */,
+				7EEF18221C0743E1007B173C /* ProFile */,
+				7E04D1E71C089F4900F7370A /* Other */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -165,6 +198,8 @@
 		7EEF18081C0743E1007B173C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7E04D2001C08A28900F7370A /* WBDiscoverViewController.h */,
+				7E04D2011C08A28900F7370A /* WBDiscoverViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +231,8 @@
 		7EEF180C1C0743E1007B173C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7E04D1FA1C08A21B00F7370A /* WBHomeViewController.h */,
+				7E04D1FB1C08A21B00F7370A /* WBHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -262,6 +299,8 @@
 		7EEF18181C0743E1007B173C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7E04D1FD1C08A24000F7370A /* WBMessageViewController.h */,
+				7E04D1FE1C08A24000F7370A /* WBMessageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -280,26 +319,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		7EEF181B1C0743E1007B173C /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				7EEF17D61C074352007B173C /* AppDelegate.h */,
-				7EEF17D71C074352007B173C /* AppDelegate.m */,
-				7EEF17D41C074352007B173C /* main.m */,
-				7EEF181E1C0743E1007B173C /* Category */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		7EEF181E1C0743E1007B173C /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				7EEF181F1C0743E1007B173C /* UIImage+WB.h */,
-				7EEF18201C0743E1007B173C /* UIImage+WB.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
 		7EEF18221C0743E1007B173C /* ProFile */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +332,8 @@
 		7EEF18231C0743E1007B173C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7E04D2031C08A2AB00F7370A /* WBProFileViewController.h */,
+				7E04D2041C08A2AB00F7370A /* WBProFileViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -437,8 +458,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EEF17E31C074352007B173C /* LaunchScreen.storyboard in Resources */,
-				7EEF17E01C074352007B173C /* Assets.xcassets in Resources */,
+				7E04D1F21C08A06500F7370A /* Assets.xcassets in Resources */,
+				7E04D1F51C08A07100F7370A /* LaunchScreen.storyboard in Resources */,
+				7E04D1F71C08A08200F7370A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,11 +485,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EEF17D81C074352007B173C /* AppDelegate.m in Sources */,
-				7EEF17D51C074352007B173C /* main.m in Sources */,
+				7E04D1FF1C08A24000F7370A /* WBMessageViewController.m in Sources */,
+				7E04D1FC1C08A21B00F7370A /* WBHomeViewController.m in Sources */,
+				7E04D1EE1C089F4900F7370A /* AppDelegate.m in Sources */,
 				7EEF18271C0743E1007B173C /* WBTabBar.m in Sources */,
+				7E04D2021C08A28900F7370A /* WBDiscoverViewController.m in Sources */,
+				7E04D2051C08A2AB00F7370A /* WBProFileViewController.m in Sources */,
 				7EEF18261C0743E1007B173C /* WBTabBarController.m in Sources */,
-				7EEF18291C0743E1007B173C /* UIImage+WB.m in Sources */,
+				7E04D1EF1C089F4900F7370A /* UIImage+WB.m in Sources */,
+				7E04D1F01C089F4900F7370A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,10 +529,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7EEF17E11C074352007B173C /* LaunchScreen.storyboard */ = {
+		7E04D1F31C08A07100F7370A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7EEF17E21C074352007B173C /* Base */,
+				7E04D1F41C08A07100F7370A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -685,6 +711,7 @@
 				7EEF17FF1C074352007B173C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EEF18001C074352007B173C /* Build configuration list for PBXNativeTarget "weiboTests" */ = {
 			isa = XCConfigurationList;
@@ -693,6 +720,7 @@
 				7EEF18021C074352007B173C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EEF18031C074352007B173C /* Build configuration list for PBXNativeTarget "weiboUITests" */ = {
 			isa = XCConfigurationList;
@@ -701,6 +729,7 @@
 				7EEF18051C074352007B173C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
