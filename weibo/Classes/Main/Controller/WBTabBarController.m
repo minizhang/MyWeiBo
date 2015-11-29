@@ -13,6 +13,7 @@
 #import "WBDiscoverViewController.h"
 #import "WBProFileViewController.h"
 #import "WBMessageViewController.h"
+#import "WBNavigationController.h"
 
 @interface WBTabBarController ()
  
@@ -66,11 +67,15 @@
 
 
 - (void)setUpOneChildViewWith:(UIViewController *)vc imageName:(NSString *)image selectedImageName:(NSString *)selectedImage andTitle:(NSString *)title{
-    [self addChildViewController:vc];
-    vc.tabBarItem.title = title;
+    
+    vc.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:image];
 //    vc.tabBarItem.badgeValue = @"3";
     vc.tabBarItem.selectedImage = [UIImage imageWithOriginalName:selectedImage];
+    
+    WBNavigationController *nav = [[WBNavigationController alloc] initWithRootViewController:vc];
+    
+    [self addChildViewController:nav];
 }
 
 

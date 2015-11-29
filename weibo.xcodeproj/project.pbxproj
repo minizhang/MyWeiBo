@@ -17,6 +17,7 @@
 		7E04D1FF1C08A24000F7370A /* WBMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D1FE1C08A24000F7370A /* WBMessageViewController.m */; };
 		7E04D2021C08A28900F7370A /* WBDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D2011C08A28900F7370A /* WBDiscoverViewController.m */; };
 		7E04D2051C08A2AB00F7370A /* WBProFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D2041C08A2AB00F7370A /* WBProFileViewController.m */; };
+		7EDEB5EA1C094823000274A2 /* WBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDEB5E91C094823000274A2 /* WBNavigationController.m */; };
 		7EEF17EE1C074352007B173C /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF17ED1C074352007B173C /* weiboTests.m */; };
 		7EEF17F91C074352007B173C /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF17F81C074352007B173C /* weiboUITests.m */; };
 		7EEF18261C0743E1007B173C /* WBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF18121C0743E1007B173C /* WBTabBarController.m */; };
@@ -57,6 +58,8 @@
 		7E04D2011C08A28900F7370A /* WBDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBDiscoverViewController.m; sourceTree = "<group>"; };
 		7E04D2031C08A2AB00F7370A /* WBProFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBProFileViewController.h; sourceTree = "<group>"; };
 		7E04D2041C08A2AB00F7370A /* WBProFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBProFileViewController.m; sourceTree = "<group>"; };
+		7EDEB5E81C094823000274A2 /* WBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBNavigationController.h; sourceTree = "<group>"; };
+		7EDEB5E91C094823000274A2 /* WBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBNavigationController.m; sourceTree = "<group>"; };
 		7EEF17D01C074352007B173C /* weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EEF17E91C074352007B173C /* weiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EEF17ED1C074352007B173C /* weiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboTests.m; sourceTree = "<group>"; };
@@ -266,6 +269,8 @@
 			children = (
 				7EEF18111C0743E1007B173C /* WBTabBarController.h */,
 				7EEF18121C0743E1007B173C /* WBTabBarController.m */,
+				7EDEB5E81C094823000274A2 /* WBNavigationController.h */,
+				7EDEB5E91C094823000274A2 /* WBNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -493,6 +498,7 @@
 				7E04D2051C08A2AB00F7370A /* WBProFileViewController.m in Sources */,
 				7EEF18261C0743E1007B173C /* WBTabBarController.m in Sources */,
 				7E04D1EF1C089F4900F7370A /* UIImage+WB.m in Sources */,
+				7EDEB5EA1C094823000274A2 /* WBNavigationController.m in Sources */,
 				7E04D1F01C089F4900F7370A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

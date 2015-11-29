@@ -23,7 +23,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     //创建tabBarVc
     WBTabBarController *tabBarVc = [[WBTabBarController alloc] init];
-    tabBarVc.view.backgroundColor = [UIColor greenColor];
+//    tabBarVc.view.backgroundColor = [UIColor greenColor];
     self.window.rootViewController = tabBarVc;
     [self.window makeKeyAndVisible];//to show the main window and also make it key
     
