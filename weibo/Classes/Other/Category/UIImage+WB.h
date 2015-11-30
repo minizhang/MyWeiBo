@@ -10,6 +10,10 @@
 
 @interface UIImage (WB)
 
+//加载原始图片，去掉系统默认的渲染功能（渲染为蓝色）
 + (instancetype)imageWithOriginalName:(NSString *)imageName;
+
+//在给定的像素值内拉伸图片
++ (instancetype)imageWithStretchableName:(NSString *)imageName;
 
 @end

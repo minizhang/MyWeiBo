@@ -16,4 +16,12 @@
     return [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];//取消image的选中渲染功能
 }
 
++ (instancetype)imageWithStretchableName:(NSString *)imageName{
+    UIImage *image = [UIImage imageNamed:imageName];
+    
+    //图片根据imageView的大小自动填充
+    return [image stretchableImageWithLeftCapWidth:image.size.width * 0.5 topCapHeight:image.size.height * 0.5];
+}
+
+
 @end
