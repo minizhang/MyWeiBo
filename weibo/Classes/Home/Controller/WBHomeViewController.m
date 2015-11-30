@@ -7,6 +7,7 @@
 //
 
 #import "WBHomeViewController.h"
+#import "UIBarButtonItem+Extension.h"
 
 @interface WBHomeViewController ()
 
@@ -17,16 +18,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"navigationbar_friendsearch" hightLightImageName:@"navigationbar_friendsearch_highlighted" target:self action:@selector(friendSearch)];
+    
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImageName:@"navigationbar_pop" hightLightImageName:@"navigationbar_pop_highlighted" target:self action:@selector(pop)];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (void)friendSearch {
+    NSLog(@"friendSearch");
+}
+
+- (void)pop {
+    NSLog(@"pop");
 }
 
 #pragma mark - Table view data source
@@ -45,7 +49,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
     }
     
-    cell.textLabel.text = [NSString stringWithFormat:@"Home-- %d",indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"Home-- %ld",(long)indexPath.row];
     
     return cell;
 }

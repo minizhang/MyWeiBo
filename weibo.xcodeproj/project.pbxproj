@@ -22,6 +22,7 @@
 		7EEF17F91C074352007B173C /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF17F81C074352007B173C /* weiboUITests.m */; };
 		7EEF18261C0743E1007B173C /* WBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF18121C0743E1007B173C /* WBTabBarController.m */; };
 		7EEF18271C0743E1007B173C /* WBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF18161C0743E1007B173C /* WBTabBar.m */; };
+		7EF843841C0BEAE300586481 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF843831C0BEAE300586481 /* UIBarButtonItem+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		7EEF18121C0743E1007B173C /* WBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTabBarController.m; sourceTree = "<group>"; };
 		7EEF18151C0743E1007B173C /* WBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTabBar.h; sourceTree = "<group>"; };
 		7EEF18161C0743E1007B173C /* WBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTabBar.m; sourceTree = "<group>"; };
+		7EF843821C0BEAE300586481 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		7EF843831C0BEAE300586481 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				7E04D1EB1C089F4900F7370A /* UIImage+WB.h */,
 				7E04D1EC1C089F4900F7370A /* UIImage+WB.m */,
+				7EF843821C0BEAE300586481 /* UIBarButtonItem+Extension.h */,
+				7EF843831C0BEAE300586481 /* UIBarButtonItem+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -496,6 +501,7 @@
 				7EEF18271C0743E1007B173C /* WBTabBar.m in Sources */,
 				7E04D2021C08A28900F7370A /* WBDiscoverViewController.m in Sources */,
 				7E04D2051C08A2AB00F7370A /* WBProFileViewController.m in Sources */,
+				7EF843841C0BEAE300586481 /* UIBarButtonItem+Extension.m in Sources */,
 				7EEF18261C0743E1007B173C /* WBTabBarController.m in Sources */,
 				7E04D1EF1C089F4900F7370A /* UIImage+WB.m in Sources */,
 				7EDEB5EA1C094823000274A2 /* WBNavigationController.m in Sources */,
