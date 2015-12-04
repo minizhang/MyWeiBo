@@ -9,6 +9,8 @@
 #import "UIBarButtonItem+Extension.h"
 
 @implementation UIBarButtonItem (Extension)
+
+//封装UIBarButtonItem方法
 + (UIBarButtonItem *)itemWithImageName:(NSString *)imageName hightLightImageName:(NSString *)hightLightImageName target:(id)target action:(SEL)action{
     
     UIButton *button = [[UIButton alloc] init];

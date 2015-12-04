@@ -57,7 +57,6 @@
     
     self.centerButton.center = CGPointMake(self.bounds.size.width * 0.5, self.bounds.size.height * 0.5);
     
-    
 }
 
 @end

@@ -30,7 +30,7 @@
         viewController.hidesBottomBarWhenPushed = YES;
         viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"navigationbar_back" hightLightImageName:@"navigationbar_back_highlighted" target:self action:@selector(back)];
     
-        viewController.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImageName:@"navigationbar_more" hightLightImageName:@"navigationbar_more_highlighted" target:self action:@selector(more)];
+        viewController.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImageName:@"navigationbar_more" hightLightImageName:@"navigationbar_more_highlighted" target:self action:@  selector(more)];
     }
     
     [super pushViewController:viewController animated:YES];

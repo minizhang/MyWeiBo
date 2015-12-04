@@ -8,8 +8,12 @@
 
 #import "WBHomeViewController.h"
 #import "UIBarButtonItem+Extension.h"
+#import "WBTitleButton.h"
+#import "WBCover.h"
 
 @interface WBHomeViewController ()
+
+@property (nonatomic, weak) WBTitleButton *titleButton;
 
 @end
 
@@ -23,8 +27,26 @@
     
     //添加右边的BarButtonItem
     self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImageName:@"navigationbar_pop" hightLightImageName:@"navigationbar_pop_highlighted" target:self action:@selector(pop)];
+    
+    //TitleView
+    WBTitleButton *titleButton = [WBTitleButton buttonWithType:UIButtonTypeCustom];
+    _titleButton = titleButton;
+    
+    [titleButton setTitle:@"首页" forState:UIControlStateNormal];
+    [titleButton setImage:[UIImage imageNamed:@"navigationbar_arrow_up"] forState:UIControlStateNormal];
+    [titleButton setImage:[UIImage imageNamed:@"navigationbar_arrow_down"] forState:UIControlStateHighlighted];
+    
+//    titleButton.adjustsImageWhenHighlighted = NO;
+    [titleButton addTarget:self action:@selector(titleClick:) forControlEvents:UIControlEventTouchUpInside];
+    
+    self.navigationItem.titleView = titleButton;
+//    NSLog(@"frame %f",self.navigationItem.titleView.frame.size.width);
 }
 
+- (void)titleClick:(UIButton *)button{
+    button.selected = !button.selected;
+    [WBCover show];
+}
 
 - (void)friendSearch {
     NSLog(@"friendSearch");

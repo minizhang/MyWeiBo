@@ -17,6 +17,8 @@
 		7E04D1FF1C08A24000F7370A /* WBMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D1FE1C08A24000F7370A /* WBMessageViewController.m */; };
 		7E04D2021C08A28900F7370A /* WBDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D2011C08A28900F7370A /* WBDiscoverViewController.m */; };
 		7E04D2051C08A2AB00F7370A /* WBProFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D2041C08A2AB00F7370A /* WBProFileViewController.m */; };
+		7E2A18781C0D322800190A61 /* WBTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A18771C0D322800190A61 /* WBTitleButton.m */; };
+		7E2A187B1C0D40AE00190A61 /* WBCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A187A1C0D40AE00190A61 /* WBCover.m */; };
 		7EDEB5EA1C094823000274A2 /* WBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDEB5E91C094823000274A2 /* WBNavigationController.m */; };
 		7EEF17EE1C074352007B173C /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF17ED1C074352007B173C /* weiboTests.m */; };
 		7EEF17F91C074352007B173C /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF17F81C074352007B173C /* weiboUITests.m */; };
@@ -61,6 +63,10 @@
 		7E04D2011C08A28900F7370A /* WBDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBDiscoverViewController.m; sourceTree = "<group>"; };
 		7E04D2031C08A2AB00F7370A /* WBProFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBProFileViewController.h; sourceTree = "<group>"; };
 		7E04D2041C08A2AB00F7370A /* WBProFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBProFileViewController.m; sourceTree = "<group>"; };
+		7E2A18761C0D322800190A61 /* WBTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBTitleButton.h; path = weibo/Classes/Home/Controller/WBTitleButton.h; sourceTree = SOURCE_ROOT; };
+		7E2A18771C0D322800190A61 /* WBTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBTitleButton.m; path = weibo/Classes/Home/Controller/WBTitleButton.m; sourceTree = SOURCE_ROOT; };
+		7E2A18791C0D40AE00190A61 /* WBCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBCover.h; path = weibo/Classes/Home/Controller/WBCover.h; sourceTree = SOURCE_ROOT; };
+		7E2A187A1C0D40AE00190A61 /* WBCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBCover.m; path = weibo/Classes/Home/Controller/WBCover.m; sourceTree = SOURCE_ROOT; };
 		7EDEB5E81C094823000274A2 /* WBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBNavigationController.h; sourceTree = "<group>"; };
 		7EDEB5E91C094823000274A2 /* WBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBNavigationController.m; sourceTree = "<group>"; };
 		7EEF17D01C074352007B173C /* weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -265,6 +271,10 @@
 		7EEF180E1C0743E1007B173C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7E2A18761C0D322800190A61 /* WBTitleButton.h */,
+				7E2A18771C0D322800190A61 /* WBTitleButton.m */,
+				7E2A18791C0D40AE00190A61 /* WBCover.h */,
+				7E2A187A1C0D40AE00190A61 /* WBCover.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -512,10 +522,12 @@
 				7EF843871C0C310D00586481 /* WBSearchBar.m in Sources */,
 				7EF843CC1C0C427400586481 /* UIView+Frame.m in Sources */,
 				7E04D2021C08A28900F7370A /* WBDiscoverViewController.m in Sources */,
+				7E2A187B1C0D40AE00190A61 /* WBCover.m in Sources */,
 				7E04D2051C08A2AB00F7370A /* WBProFileViewController.m in Sources */,
 				7EF843841C0BEAE300586481 /* UIBarButtonItem+Extension.m in Sources */,
 				7EEF18261C0743E1007B173C /* WBTabBarController.m in Sources */,
 				7E04D1EF1C089F4900F7370A /* UIImage+WB.m in Sources */,
+				7E2A18781C0D322800190A61 /* WBTitleButton.m in Sources */,
 				7EDEB5EA1C094823000274A2 /* WBNavigationController.m in Sources */,
 				7E04D1F01C089F4900F7370A /* main.m in Sources */,
 			);
