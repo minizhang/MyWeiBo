@@ -19,6 +19,7 @@
 		7E04D2051C08A2AB00F7370A /* WBProFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04D2041C08A2AB00F7370A /* WBProFileViewController.m */; };
 		7E2A18781C0D322800190A61 /* WBTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A18771C0D322800190A61 /* WBTitleButton.m */; };
 		7E2A187B1C0D40AE00190A61 /* WBCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A187A1C0D40AE00190A61 /* WBCover.m */; };
+		7EB151431C3A1B9C008F168C /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB151421C3A1B9C008F168C /* TableViewCell.m */; };
 		7EDEB5EA1C094823000274A2 /* WBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDEB5E91C094823000274A2 /* WBNavigationController.m */; };
 		7EEF17EE1C074352007B173C /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF17ED1C074352007B173C /* weiboTests.m */; };
 		7EEF17F91C074352007B173C /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF17F81C074352007B173C /* weiboUITests.m */; };
@@ -67,6 +68,8 @@
 		7E2A18771C0D322800190A61 /* WBTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBTitleButton.m; path = weibo/Classes/Home/Controller/WBTitleButton.m; sourceTree = SOURCE_ROOT; };
 		7E2A18791C0D40AE00190A61 /* WBCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBCover.h; path = weibo/Classes/Home/Controller/WBCover.h; sourceTree = SOURCE_ROOT; };
 		7E2A187A1C0D40AE00190A61 /* WBCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBCover.m; path = weibo/Classes/Home/Controller/WBCover.m; sourceTree = SOURCE_ROOT; };
+		7EB151411C3A1B9C008F168C /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		7EB151421C3A1B9C008F168C /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		7EDEB5E81C094823000274A2 /* WBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBNavigationController.h; sourceTree = "<group>"; };
 		7EDEB5E91C094823000274A2 /* WBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBNavigationController.m; sourceTree = "<group>"; };
 		7EEF17D01C074352007B173C /* weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -312,6 +315,8 @@
 			children = (
 				7EEF18151C0743E1007B173C /* WBTabBar.h */,
 				7EEF18161C0743E1007B173C /* WBTabBar.m */,
+				7EB151411C3A1B9C008F168C /* TableViewCell.h */,
+				7EB151421C3A1B9C008F168C /* TableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -528,6 +533,7 @@
 				7EEF18261C0743E1007B173C /* WBTabBarController.m in Sources */,
 				7E04D1EF1C089F4900F7370A /* UIImage+WB.m in Sources */,
 				7E2A18781C0D322800190A61 /* WBTitleButton.m in Sources */,
+				7EB151431C3A1B9C008F168C /* TableViewCell.m in Sources */,
 				7EDEB5EA1C094823000274A2 /* WBNavigationController.m in Sources */,
 				7E04D1F01C089F4900F7370A /* main.m in Sources */,
 			);

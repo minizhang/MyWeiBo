@@ -23,7 +23,7 @@
     [super viewDidLoad];
     
     
-    //添加左边的BarButtonItem 
+    //添加左边的BarButtonItem
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"navigationbar_friendsearch" hightLightImageName:@"navigationbar_friendsearch_highlighted" target:self action:@selector(friendSearch)];
     
     //添加右边的BarButtonItem
