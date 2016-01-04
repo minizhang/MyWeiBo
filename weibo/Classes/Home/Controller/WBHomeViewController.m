@@ -22,13 +22,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //添加左边的BarButtonItem
+    
+    //添加左边的BarButtonItem 
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"navigationbar_friendsearch" hightLightImageName:@"navigationbar_friendsearch_highlighted" target:self action:@selector(friendSearch)];
     
     //添加右边的BarButtonItem
     self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImageName:@"navigationbar_pop" hightLightImageName:@"navigationbar_pop_highlighted" target:self action:@selector(pop)];
     
-    //TitleView
+  
+    
     WBTitleButton *titleButton = [WBTitleButton buttonWithType:UIButtonTypeCustom];
     _titleButton = titleButton;
     
@@ -36,11 +38,14 @@
     [titleButton setImage:[UIImage imageNamed:@"navigationbar_arrow_up"] forState:UIControlStateNormal];
     [titleButton setImage:[UIImage imageNamed:@"navigationbar_arrow_down"] forState:UIControlStateHighlighted];
     
+    
+    
 //    titleButton.adjustsImageWhenHighlighted = NO;
     [titleButton addTarget:self action:@selector(titleClick:) forControlEvents:UIControlEventTouchUpInside];
     
     self.navigationItem.titleView = titleButton;
 //    NSLog(@"frame %f",self.navigationItem.titleView.frame.size.width);
+    
 }
 
 - (void)titleClick:(UIButton *)button{
